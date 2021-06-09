@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket  = "demoapsouth"
+    bucket  = "primetfstatedata"
     key     = "tf/statefile/terraform.tfstate"
-    region  = "ap-south-1"
+    region  = "$$$$$$"
     profile = "default"
   }
 }
