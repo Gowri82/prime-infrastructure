@@ -118,6 +118,7 @@ root
  * Region should be common to all provisioned resources both programatically & manually (S3 bucket for backend)
  * Install awscli and configure aws profile with Access & Secret access key in the Terraform executing machine. Default is used
    Command : aws configure
+ * On passing user-role as dev/qa respective OS users will be created as dev-user/qa-user
  
 ## Module execution steps: ## 
  * terraform version
