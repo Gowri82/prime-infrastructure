@@ -40,6 +40,7 @@ resource "aws_key_pair" "key" {
   public_key = tls_private_key.key.public_key_openssh
 }
 
+# Downloading the pem file to local terraform executing machine to connect the jump server
 resource "local_file" "pem_file" {
   filename = pathexpand("./${var.key_name}.pem")
   file_permission = "600"
