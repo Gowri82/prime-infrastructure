@@ -107,7 +107,7 @@ root
          ├───   variables.tf
          └───   vpc.tf    
 ```
-## Prerequisite: ##
+## Prerequisites: ##
  * Terraform version v0.13.7 is used 
  * Refer below links to download and configure terraform v0.13.7 on your machine.
    https://releases.hashicorp.com/terraform/0.13.7/
@@ -115,7 +115,7 @@ root
  * terraform.tfvars should be updated with required inputs. Sample file attached
  * Create a S3 bucket for Remote backend. S3 bucket name should be "primetfstatedata" and Update the region in backend.tf file.
  * Region should be common to all provisioned resources both programatically & manually (S3 bucket for backend)
- * Install awscli and configure aws profile with Access & Secret access key. Default is used
+ * Install awscli and configure aws profile with Access & Secret access key in the Terraform executing machine. Default is used
    Command : aws configure
  
 ## Module execution steps: ## 
@@ -129,5 +129,5 @@ root
  * Whitelisted local terraform executor machine's IP only to SSH jump server.
  
 ## Reference Links: ## 
-       Terraform:      https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/
+   Terraform: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/
              
