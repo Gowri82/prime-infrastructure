@@ -1,6 +1,6 @@
 ## prime-infrastructure ##
 
-Repositorry "prime-infrastructure" holds terraform modules and resources code to provision following resources.
+Repository "prime-infrastructure" holds terraform modules and resources code to provision following resources.
 1. Networking - VPC, Subnets (private & Public), NAT Gateway and all unerlying components
 2. Security - Security Group and it's rules (ingress and egress traffic to port 80, 443 & 22)
 3. IAM - IAM EC2 role, instance profile & corresponding policy with role based s3 & EC2 access 
