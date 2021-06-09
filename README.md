@@ -118,7 +118,7 @@ root
  * Install awscli and configure aws profile with Access & Secret access key. Default is used
    Command : aws configure
  
- ## Module execution steps: ## 
+## Module execution steps: ## 
  * terraform version
  * terraform init
  * terraform plan
@@ -127,7 +127,7 @@ root
 
 ## Security features: ## 
  * Whitelisted local terraform executor machine's IP only to SSH jump server.
-
+ 
 ## Reference Links: ## 
        Terraform:      https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/
              
