@@ -103,9 +103,9 @@ root
     │           jumpserver_script.sh.tpl
     │           webserver_user_data_script.sh.tpl
     └───vpc
-            output.tf
-            variables.tf
-            vpc.tf
+         ├───   output.tf
+         ├───   variables.tf
+         └───   vpc.tf
 
 ## prerequisite: ##
  * Terraform version v0.13.7 is used to develop  
