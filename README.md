@@ -126,7 +126,7 @@ root
  * terraform destroy --auto-approve
 
 ## Security features: ## 
- * Whitelisted local terraform executor machine's IP 
+ * Whitelisted local terraform executor machine's IP only to SSH jump server.
 
 ## Reference Links: ## 
        Terraform:      https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/
