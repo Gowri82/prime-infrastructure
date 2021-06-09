@@ -1,4 +1,4 @@
-## prime-infrastructure ##
+## Prime-Infrastructure ##
 
 Repository "prime-infrastructure" holds terraform modules and resources code to provision following resources.
 1. Networking - VPC, Subnets (private & Public), NAT Gateway and all unerlying components
@@ -107,8 +107,8 @@ root
          ├───   variables.tf
          └───   vpc.tf
 
-## prerequisite: ##
- * Terraform version v0.13.7 is used to develop  
+## Prerequisite: ##
+ * Terraform version v0.13.7 is used 
  * Refer below links to download and configure terraform v0.13.7 on your machine.
    https://releases.hashicorp.com/terraform/0.13.7/
    https://learn.hashicorp.com/terraform/getting-started/install.html   
