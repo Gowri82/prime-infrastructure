@@ -105,8 +105,8 @@ root
     └───vpc
          ├───   output.tf
          ├───   variables.tf
-         └───   vpc.tf
-
+         └───   vpc.tf    
+```
 ## Prerequisite: ##
  * Terraform version v0.13.7 is used 
  * Refer below links to download and configure terraform v0.13.7 on your machine.
@@ -131,4 +131,3 @@ root
 ## Reference Links: ## 
        Terraform:      https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/
              
-        
