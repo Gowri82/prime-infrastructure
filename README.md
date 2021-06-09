@@ -1,14 +1,15 @@
 ## Prime-Infrastructure ##
 
 Repository "prime-infrastructure" holds terraform modules and resources code to provision following resources.
-1. Networking - VPC, Subnets (private & Public), NAT Gateway and all unerlying components
+1. Networking - VPC, Subnets (private & Public), NAT Gateway and all underlying components
 2. Security - Security Group and it's rules (ingress and egress traffic to port 80, 443 & 22)
 3. IAM - IAM EC2 role, instance profile & corresponding policy with role based s3 & EC2 access 
 4. Compute - Instance (Server hosted in private subnet with httpd & Server hosted in public subnet pretending as Jump server)
 5. Storage - S3 bucket created with respective role's (DEV & QA)
-6. Configuration changes will be managed using shell script userdata. (user creation, Password disabling, SSH Seamless authentication)
+6. Configuration changes carried out using shell script in userdata. (user creation, Password disabling, SSH Seamless authentication)
 7. Local IP of terraform executing machine has been whitelisted for SSH (Port 22) in security group i.e., Module publicip
 8. SSH_Key generated and stored in AWS secret manager dynamically
+9. Pem key will be downloaded to terraform executor machine to connect jump server
 
 ## Architecture diagram: ##
  
