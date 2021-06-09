@@ -113,7 +113,7 @@ root
    https://releases.hashicorp.com/terraform/0.13.7/
    https://learn.hashicorp.com/terraform/getting-started/install.html   
  * terraform.tfvars should be updated with required inputs. Sample file attached
- * Created a S3 bucket for Remote backend. S3 bucket name should be "primetfstatedata" and Update the region in backend.tf file.
+ * Create a S3 bucket for Remote backend. S3 bucket name should be "primetfstatedata" and Update the region in backend.tf file.
  * Region should be common to all provisioned resources both programatically & manually (S3 bucket for backend)
  * Install awscli and configure aws profile with Access & Secret access key. Default is used
    Command : aws configure
