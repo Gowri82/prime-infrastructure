@@ -12,9 +12,6 @@ availability_zones = ["ap-south-1a","ap-south-1b","ap-south-1c"]
 ingress_ip_cidr_range = ["0.0.0.0/0"]
 egress_ip_cidr_range = ["0.0.0.0/0"]
 
-#ec2_role_name = "iam-role"
-#ec2_profile_name = "iam-profile"
-#ec2_iam_policy_name = "iam-policy"
 
 
 
