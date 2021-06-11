@@ -31,7 +31,7 @@ user_create (){
     sudo chown -R $uname:$uname /home/$uname/.ssh
     sudo chmod 700 /home/$uname/.ssh
     sudo chmod 600 /home/$uname/.ssh/authorized_keys
-     sudo chmod 600 /home/$uname/.ssh/id_rsa
+    sudo chmod 600 /home/$uname/.ssh/id_rsa
     sudo usermod -aG sudo $uname
     info "user configuration for ssh completed"
     sudo service sshd restart
